@@ -8,8 +8,7 @@ http_archive(
     [
         "https://github.com/carpenterjc/bazel_experiments/raw/master/archive_in_archive.zip"
     ], 
-    build_file="@//:archive.BUILD",
-    sha256 = "4c121f5acaaac59f438b4d726b56b5945d41657f6356084d82cc8cdf76f01a0c" 
+    build_file="@//:archive.BUILD"
 )
 
 
@@ -19,6 +18,5 @@ http_archive(
     [
         "https://github.com/carpenterjc/bazel_experiments/raw/master/archive_in_archive_new_name.zip"
     ],
-    build_file="@//:archive.BUILD",
-    sha256 = "4c121f5acaaac59f438b4d726b56b5945d41657f6356084d82cc8cdf76f01a0c" 
+    build_file="@//:archive.BUILD"
 )
